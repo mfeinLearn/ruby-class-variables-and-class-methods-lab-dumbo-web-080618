@@ -47,7 +47,7 @@ class Song
   end
  
   def name=(new_name)
-    @name = new_name
+    @name= new_name
   end
 
 
@@ -56,7 +56,7 @@ class Song
   end
 
   def artists= (new_artists)
-    @artists = new_artists
+    @artists= new_artists
   end
 
   def genre 
@@ -64,7 +64,7 @@ class Song
   end
 
   def genre= (new_genre )
-    @genre = new_genre 
+    @genre= new_genre 
   end
 
 end
